@@ -1,0 +1,9 @@
+input,value,source
+GBPUSD spot,1.337100,"FRED DEXUSUK, 2026-11-06"
+USD rate (cont. comp.),0.039882,"FRED IR3TIB01USM156N, 2026-09 average"
+GBP rate (cont. comp.),0.037044,"FRED IR3TIB01GBM156N, 2026-01 average (latest available)"
+time to expiry (years),0.082192,30 calendar days / 365
+forward,1.337412,covered interest parity
+ATM vol,0.080000,"illustrative, set by hand"
+25D risk reversal,-0.008000,"illustrative, set by hand"
+25D butterfly,0.002500,"illustrative, set by hand"

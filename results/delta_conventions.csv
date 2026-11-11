@@ -1,0 +1,5 @@
+convention,strike_25d_call,strike_25d_put,atm_dns_strike
+spot delta,1.358545,1.317301,1.337764
+"spot delta, premium-adjusted",1.358207,1.316976,1.337060
+forward delta,1.358619,1.317228,1.337764
+"forward delta, premium-adjusted",1.358283,1.316904,1.337060

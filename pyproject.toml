@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "fxlab"
+version = "0.1.0"
+description = "FX forwards, carry and momentum backtests, Garman-Kohlhagen option pricing and delta-hedging, built on public FRED data"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [{ name = "Xiangzhong (Shaun) Meng" }]
+dependencies = [
+    "numpy",
+    "pandas>=2.2",
+    "scipy",
+    "matplotlib",
+    "requests",
+]
+
+[project.optional-dependencies]
+dev = ["pytest"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

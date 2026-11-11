@@ -1,0 +1,12 @@
+# Downloaded market data is rebuilt with scripts/download_data.py
+data/
+
+# Python
+__pycache__/
+*.egg-info/
+.pytest_cache/
+.venv/
+venv/
+
+# OS
+.DS_Store
